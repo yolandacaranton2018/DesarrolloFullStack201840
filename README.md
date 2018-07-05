@@ -9,7 +9,7 @@ Curso:40
 
 Actividades:
 
-  1. Proto.io Basico--> Se realizara un prototipado basico de una aplicacion movil que resuelva una problematica
+   1. Proto.io Basico--> Se realizara un prototipado basico de una aplicacion movil que resuelva una problematica
   2. Curriculom Vitae  ->> Se crara una pagina Web correspondiente a la hoja de vida de cada estudiante
   3. Clonado de Pagina  --> se desarrollara un actividad de darle movimiento a un objeto
   4. Animaciones  --> Desarrollo de actividades en clase
