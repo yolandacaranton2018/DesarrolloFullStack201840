@@ -1,0 +1,33 @@
+
+P.especial {
+font-style:italic;
+  font-weight:bold;
+  font-size:2em;
+  font-color:#ffffff;
+  font-family:'Helvetica','Verdana','Monaco',sans-serif;
+  font-size:10pt;
+  text-align:justify
+  
+
+}
+
+
+.titulo
+{
+color:#FFD600;
+font-family:Garamond;
+font-size:18pt;
+}
+table,td{
+border:1px solid IVORY;
+border-collapse:collapse;
+background-color:#ffcfd9;
+font-size:8pt;
+}
+
+table,th{
+border:1px solid IVORY;
+font-size:10pt;
+border-collapse:collapse;
+background-color:b6b6f8;
+}
