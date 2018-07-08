@@ -1,0 +1,64 @@
+﻿<html> 
+<head> 
+<style>
+div.araña_contenedor{
+	width:285 px;
+	height: 240 px;
+	margin:0 px auto;
+} 
+div.araña{
+position: relative;
+background: url("C:\Objectos\araña.png"); ;
+width:285px;
+height:302px;
+top:0px;
+@-webkit-animation:araña_flota ease 2s infinite;
+@-moz-animation:araña_flota ease 2s infinite;
+@-ms-animation:araña_flota ease 2s infinite;
+
+
+}
+
+@-webkit-keyframes araña_flota {50% {top:100px;} 100% {top:0px;}}
+@-moz-keyframes araña_flota {50% {top:100px;} 100% {top:0px;}}
+@-ms-keyframes araña_flota {50% {top:100px;} 100% {top:0px;}}
+@keyframes araña_flota {50% {top:100px;} 100% {top:0px;}}
+
+div.araña_sombra{
+position: relative;
+height: 16px;
+background: #999;
+opacity: 0.1;
+border-radius: 100%;
+margin: 0px 0px 0px 0px ;
+top: 100px;
+-webkit -animation: araña_sombra ease 2s infinite;
+-moz -animation: araña_sombra   ease 2s infinite;
+-ms-animation: araña_sombra ease 2s infinite;
+@animation:araña_sombra ease 2s infinite
+}
+
+@-webkit-keyframes araña_sombra {50%{margin:0px 20% 0px 20% opacity:0.7;} 100%
+{margin: 0px 0px 0px  0px; opacity:0.1; }}
+
+
+@-moz-keyframes  araña_sombra {50%{margin:0px 20% 0px 20% opacity:0.7;} 100%
+{margin: 0px 0px 0px 0px; opacity:0.1; }}
+
+}
+@-ms-keyframes araña_sombra {50%{margin:0px 20% 0px 20% opacity:0.7;} 100%
+{margin: 0px 0px 0px 0px; opacity:0.1; }}
+
+
+@keyframes araña_sombra {50%{margin:0px 20% 0px 20% opacity:0.7;} 100%
+{margin: 0px 0px 0px 0px; opacity:0.1; }}
+
+</style>
+</head>
+<body>
+	<div class="araña_contenedor">
+		<div class="araña"></div>
+		<div class="araña_sombra"> </div>
+	</div>
+</body>
+</html>
